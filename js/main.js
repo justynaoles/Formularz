@@ -3,6 +3,8 @@
 var form = document.querySelector("#contact-form"),
     fields = form.querySelectorAll("[data-error]");
 
+    
+    form.setAttribute('novalidate', true);
 
     form.addEventListener('submit',function(e) {
         
